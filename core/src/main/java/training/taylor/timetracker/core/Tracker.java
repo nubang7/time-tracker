@@ -75,7 +75,6 @@ public class Tracker {
      * @since 3.0
      */
     public final TimeEntry get(final int index) {
-       boolean valid = false;
         return entries.get(index);
     }
 }
