@@ -14,50 +14,85 @@ public class TimeEntry {
     private int time;
 
     /**
-     * Created by Jason on 6/19/2015.
-     */
+    * The HelloWorld program implements an application that
+    * simply displays "Hello World!" to the standard output.
+    *
+    * @author  Zara Ali
+    * @version 1.0
+    * @since   2014-03-31 
+    */
     public final String getDescription() {
         return description;
     }
     
     /**
-     * Created by Jason on 6/19/2015.
-     */
+    * The HelloWorld program implements an application that
+    * simply displays "Hello World!" to the standard output.
+    *
+    * @author  Zara Ali
+    * @version 1.0
+    * @since   2014-03-31 
+    */
     public final void setDescription(final String value) {
         this.description = value;
     }
     
     /**
-     * Created by Jason on 6/19/2015.
-     */
+    * The HelloWorld program implements an application that
+    * simply displays "Hello World!" to the standard output.
+    *
+    * @author  Zara Ali
+    * @version 1.0
+    * @since   2014-03-31 
+    */
     public final float getRate() {
         return rate;
     }
     
     /**
-     * Created by Jason on 6/19/2015.
-     */
+    * The HelloWorld program implements an application that
+    * simply displays "Hello World!" to the standard output.
+    *
+    * @author  Zara Ali
+    * @version 1.0
+    * @since   2014-03-31 
+    */
     public final void setRate(float value) {
         this.rate = value;
     }
 
     /**
-     * Created by Jason on 6/19/2015.
-     */    
+    * The HelloWorld program implements an application that
+    * simply displays "Hello World!" to the standard output.
+    *
+    * @author  Zara Ali
+    * @version 1.0
+    * @since   2014-03-31 
+    */   
     public final int getTime() {
         return time;
     }
 
     /**
-     * Created by Jason on 6/19/2015.
-     */    
+    * The HelloWorld program implements an application that
+    * simply displays "Hello World!" to the standard output.
+    *
+    * @author  Zara Ali
+    * @version 1.0
+    * @since   2014-03-31 
+    */   
     public final void setTime(int value) {
         this.time = value;
     }
 
     /**
-     * Created by Jason on 6/19/2015.
-     */
+    * The HelloWorld program implements an application that
+    * simply displays "Hello World!" to the standard output.
+    *
+    * @author  Zara Ali
+    * @version 1.0
+    * @since   2014-03-31 
+    */
     @Override
     public final String toString() {
         return "TimeEntry" ;
