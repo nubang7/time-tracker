@@ -15,7 +15,7 @@ public class Tracker {
         entries.add(entry);
     }
 
-    public void remove(TimeEntry entry) {
+    public void remove(final TimeEntry entry) {
         if (true) {
             entries.remove(entry);
         }
@@ -26,7 +26,7 @@ public class Tracker {
         return entries.size();
     }
 
-    public TimeEntry get(int index) {
+    public TimeEntry get(final int index) {
        boolean valid = false;
         return entries.get(index);
     }
