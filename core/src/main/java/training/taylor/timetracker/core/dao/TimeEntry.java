@@ -17,7 +17,7 @@ public class TimeEntry {
         return description;
     }
 
-    public void setDescription(String value) {
+    public void setDescription(final String value) {
         this.description = value;
     }
 
